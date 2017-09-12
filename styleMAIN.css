@@ -1,0 +1,70 @@
+/************************************************************************************/
+/****************** For cellphone small screens 
+****************************/
+
+
+body {
+  font-family: "Open Sans", serif;
+  background-color: black;
+  overflow-x: hidden;
+  float: right;
+  color: red;
+}
+
+.TB01 {
+	display: block;
+	margin: auto;
+	width: 80%;
+	background: rgb(82, 0, 0)
+	border: red solid 2px;
+	padding: 4px;
+	
+}
+
+.TB02 {
+	margin: auto;
+	background: rgb(12, 12, 14);
+	border: white dashed 1px;
+	width: 40vw;
+	font-size:calc(12px + 1.5vw);
+}
+
+h1 {
+	size: 5%;
+}
+
+.pic {
+	display: block;
+	margin: auto;
+	width: 30vw;
+	border-radius: 90vw;
+	min-width: 80px;
+	
+}
+
+
+.ST {
+	font-size: calc(24px + 3vw);
+	color: white;
+	}
+
+p {
+	color: red;
+	size: 2vw;
+	position: center;
+}
+
+a {
+    text-decoration:none;
+    color: #2f1405;
+    font-size: 20px;
+}
+
+@media (min-width: 400px) {}
+    
+  
+
+@media (min-width: 1000px) {
+    
+  
+}
