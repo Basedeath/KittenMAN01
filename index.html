@@ -12,14 +12,39 @@
 
 
 <BODY>
-
+ 
+ <script src="../JAVAscript/script.js"></script>
+ 
+ <audio id="iAM">
+	<source src="../Audio/kittenMAN.wav" type="audio/wav">
+	<source src="../Audio/dieFORM.mp3" type="audio/mp3">
+ </audio>
+ 
     <h1>Kitten Man Fights Another Day To Live Again.</h1>
 
 
 
-    <image class ="pic" src="../IMAGES/KM01.jpg">
-
-
+    <!-- <image class ="pic" src="../IMAGES/KM01.jpg" onmouseover -"hover()"> -->
+<div id="lEYE" onmousemove="lookL"()></div>
+<div class="pic" onmouseover="hover()" onmouseout="off()" onclick="playAudio()"></div>
+ <p class="title01">Hover over to see picture</p>
+ 
+ <video id="vid01" class="vdOFF" onclick="stopVD()">
+	<source src="../Video/origin.mp4"
+	type="video/mp4">
+ </video>
+ 
+ 
+ <video id="vid02" class="vdOFF" onclick="stopVD()">
+	<source src="../Video/escape.mp4"
+	type="video/mp4">
+ </video>
+ 
+ 
+ <button onclick="plyVID01()" type="button"> Origin Video </button>
+ <button onclick="plyVID02()" type="button"> The Escape </button>
+ <button onclick="stopVD()" type="button"> stop video</button>
+ 
 	<table class="TB02">
 		
 			
