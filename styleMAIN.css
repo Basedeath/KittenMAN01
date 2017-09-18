@@ -36,10 +36,55 @@ h1 {
 .pic {
 	display: block;
 	margin: auto;
+	
+	background-image: url('KM01.jpg');
+	background-size: 30vw;
+	background-repeat: no-repeat;
+	
 	width: 30vw;
+	height: 35vw;
 	border-radius: 90vw;
 	min-width: 80px;
 	
+}
+
+.picOver {
+	display: block;
+	margin: auto;
+	
+	background-image: url('../IMAGES/KM01.jpg');
+	background-size: 50vw;
+	background-repeat: no-repeat;
+	
+	width: 50vw;
+	height: 60vw;
+	border-radius: 0vw;
+	min-width: 80px;
+}
+
+.picH {
+	display: block;
+	margin: auto;
+	width: 30vw;
+	border-radius: 0vw;
+	min-width: 80px;
+	
+}
+
+.title01 {
+	display: block;
+	margin: auto;
+	width: 30vw;
+}
+
+.vdOFF {
+	width: 0px;
+	height:0px;
+}
+
+.vdON {
+	width: 600px;
+	height: 400px;
 }
 
 
@@ -58,6 +103,13 @@ a {
     text-decoration:none;
     color: #2f1405;
     font-size: 20px;
+}
+
+#lEYE {
+	width: 10vw;
+	height: 10vw;
+	border-radius: 25px;
+	backround: yellow;
 }
 
 @media (min-width: 400px) {}
